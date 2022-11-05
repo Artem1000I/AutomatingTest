@@ -32,6 +32,18 @@ public class Avitoavto {
 
         String par1 = element.getAttribute("href");
         System.out.println(par1); //получили ссылку с элемента Мотоциклы и мототехника.
+
+    //______________________________________________________________________________________________________________________________________
+        //Получение текста getText
+        WebElement element2 = driver.findElement(By.cssSelector(".popular-rubricator-count-CX8Mx"));
+
+        String par2 = element2.getText();
+        System.out.println(par2);      // в кода записано значение как &nbsp Выдача что В разделе автоммобили марки ауди есть 1121 авто
+
+
+
     }
+
+
 
 }
